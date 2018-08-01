@@ -1,0 +1,39 @@
+.navbar-nav {
+    flex-direction: row;
+  }
+  
+  .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  }
+  
+  /* Fixes dropdown menus placed on the right side */
+  .ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html {
+        display: none;
+    }
+}
+
+#cat {
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+#aboutme {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #ddd
+}
+
+#content {
+    margin-top: 40px;
+}
