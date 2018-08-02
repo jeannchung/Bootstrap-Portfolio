@@ -36,4 +36,14 @@
 
 #content {
     margin-top: 40px;
+    width: 100%;
 }
+
+#work {
+    position: relative;
+    float: left;
+    width: 274px;
+    height: 205.5px;
+    margin: 20px 0 25px;
+}
+
