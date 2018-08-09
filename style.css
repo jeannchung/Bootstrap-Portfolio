@@ -28,6 +28,11 @@
     margin-right: 25px;
 }
 
+#form {
+    margin: 25px;
+    padding: 20px;
+}
+
 #aboutme {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -37,13 +42,36 @@
 #content {
     margin-top: 40px;
     width: 100%;
+    padding-bottom: 20px;
 }
 
-#work {
-    position: relative;
-    float: left;
-    width: 274px;
-    height: 205.5px;
+#work {  
+    width: 400px;
+    height: 305.5px;
     margin: 20px 0 25px;
 }
 
+#project {
+    position: absolute;
+    top: 75%;
+    transform: translate(-50%, -50%)
+}
+
+#column {
+    text-align: center;
+}
+
+#wordguess {
+    width: 200px;
+    height: 450px;
+}
+
+#rpg {
+    width: 200px;
+    height: 450px;
+}
+
+#trivia {
+    width: 200px;
+    height: 450px;
+}
